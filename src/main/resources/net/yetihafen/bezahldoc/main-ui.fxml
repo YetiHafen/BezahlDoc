@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.yetihafen.bezahldoc.MainUIController">
+    <HBox alignment="CENTER">
+        <HBox HBox.hgrow="ALWAYS" />
+        <Label alignment="CENTER" text="Test">
+            <font>
+                <Font size="43.0" />
+            </font></Label>
+        <HBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS"><Button text="Test2" /></HBox>
+    </HBox>
+    <ListView fx:id="list" depthTest="ENABLE" VBox.vgrow="ALWAYS">
+    </ListView>
+</VBox>
